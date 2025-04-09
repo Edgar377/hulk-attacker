@@ -5,7 +5,7 @@ import sys
 
 # Конфигурация
 HULK_SCRIPT = "hulk.py"
-TARGET_URL = "https://stomatsibay.ru/"
+TARGET_URL = input("site: ")
 DELAY_ON_FAILURE = 1  # Пауза при падении скрипта (в секундах)
 MAX_RESTARTS = 0  # Максимальное число перезапусков (0 = бесконечно)
 
